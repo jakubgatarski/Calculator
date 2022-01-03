@@ -1,0 +1,28 @@
+#calculator-area{
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+.btn{
+    font-size: 300%;
+    background-color: cadetblue;
+}
+
+#btn-0{
+    grid-column: 2/3;
+}
+#btn-AC{
+    background-color: firebrick;
+}
+#screen{
+    font-size: 300%;
+    grid-column: 1/5;
+    background-color: mediumpurple;
+}
